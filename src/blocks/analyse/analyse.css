@@ -1,0 +1,7 @@
+@import url(./__breadcrumbs/analyse__breadcrumbs.css);
+@import url(./__link/analyse__link.css);
+
+.analyse {
+    padding: 40px 104px 80px;
+    background-color: white;
+}

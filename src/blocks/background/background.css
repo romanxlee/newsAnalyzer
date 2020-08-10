@@ -1,0 +1,7 @@
+.background {
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}

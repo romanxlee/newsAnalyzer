@@ -1,0 +1,5 @@
+.results__head {
+    display: flex;
+    justify-content: space-between;
+    margin: 76px 104px 0;
+}

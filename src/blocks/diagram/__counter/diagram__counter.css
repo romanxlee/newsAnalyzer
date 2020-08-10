@@ -1,0 +1,6 @@
+.diagram__counter {
+    width: 1128px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px;
+}

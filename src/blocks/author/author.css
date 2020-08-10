@@ -1,0 +1,12 @@
+@import url(./__avatar/author__avatar.css);
+@import url(./__about/author__about.css);
+@import url(./__container/author__container.css);
+
+.author {
+    max-width: 1440px;
+    background-color: white;
+    padding: 80px 104px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+}

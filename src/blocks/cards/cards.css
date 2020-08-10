@@ -1,0 +1,19 @@
+@import url(./__item/cards__item.css);
+@import url(./__image/cards__image.css);
+@import url(./__date/cards__date.css);
+@import url(./__title/cards__title.css);
+@import url(./__text/cards__text.css);
+@import url(./__link/cards__link.css);
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 16px;
+    margin: 64px 104px 64px;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    .cards {
+        margin: 40px;
+    }
+}

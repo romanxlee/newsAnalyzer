@@ -1,0 +1,13 @@
+@import url(./_black/header__title_black.css);
+
+.header__title {
+    margin-top: 30px;
+    margin-left: 104px;
+    margin-bottom: 26px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,11 @@
+.author__avatar {
+    width: 100%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    .author__avatar {
+        width: 232px;
+    }
+}

@@ -1,0 +1,14 @@
+@import url(./__container/tech__container.css);
+@import url(./__item/tech__item.css);
+@import url(./__text/tech__text.css);
+@import url(./__title/tech__title.css);
+
+.tech {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-left: 104px;
+    padding-bottom: 88px;
+}

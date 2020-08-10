@@ -1,0 +1,14 @@
+@import url(../footer/__copyright/footer__copyright.css);
+@import url(../footer/__menu/footer__menu.css);
+@import url(../footer/__link/footer__link.css);
+@import url(../footer/__social/footer__social.css);
+@import url(../footer/__social-link/footer__social-link.css);
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 0 28px;
+    background-color: #ffffff;
+}

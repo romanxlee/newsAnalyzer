@@ -1,0 +1,6 @@
+.github__slider {
+    display: flex;
+    gap: 16px;
+    margin-top: 64px;
+    overflow: hidden;
+}

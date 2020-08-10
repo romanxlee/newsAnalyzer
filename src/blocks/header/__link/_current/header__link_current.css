@@ -1,0 +1,5 @@
+.header__link.header__link_current {
+    color: white;
+    border-bottom: 3px solid white;
+    margin-bottom: -29px;
+}

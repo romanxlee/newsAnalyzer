@@ -1,0 +1,11 @@
+.cards__image {
+    background-image: url(../../../images/image_08.png);
+    max-width: 400px;
+    height: 272px;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    .cards__image {
+        height: 150px;
+    }
+}

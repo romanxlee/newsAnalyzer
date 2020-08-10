@@ -1,0 +1,14 @@
+@import url(./__head/github__head.css);
+@import url(./__item/github__item.css);
+@import url(./__date/github__date.css);
+@import url(./__info/github__info.css);
+@import url(./__avatar/github__avatar.css);
+@import url(./__name/github__name.css);
+@import url(./__mail/github__mail.css);
+@import url(./__text/github__text.css);
+@import url(./__slider/github__slider.css);
+
+.github {
+    max-width: 1440px;
+    padding: 72px 0 80px;
+}
