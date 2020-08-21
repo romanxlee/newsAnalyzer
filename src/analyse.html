@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsAnalyzer</title>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.analyse.css %>">
+    <link rel="icon" href="<%=require('./images/icon.png')%>">
+</head>
+<body>
+    <div class="page">
+        <header class="header header_white">
+            <h2 class="header__title header__title_black">NewsAnalyzer</h2>
+            <nav class="header__menu">
+                <a class="header__link" href="./index.html">Главная</a>
+                <a class="header__link" href="./about.html">О проекте</a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section class="analyse">
+                <nav class="analyse__breadcrumbs">
+                    <a class="analyse__link" href="./index.html">Главная</a>
+                    <span> / </span>
+                    <a class="analyse__link analyse__link_active" href="./analyse.html">Аналитика</a>
+                </nav>
+                <h2 class="section-title">Вы спросили: «Путешествия»</h2>
+                <div class="analyse__text">
+                    <p class="section-text">Новостей за неделю: <span class="analyse__bold">34 324</span></p>
+                    <p class="section-text">Упоминаний в заголовках: <span class="analyse__bold">235</span></p>
+                </div>
+            </section>
+
+            <section class="diagram">
+                <h3 class="diagram__title">Аналитика по дням</h3>
+                <div class="diagram__header">
+                    <p class="diagram__header-text">ДАТА <br> (АВГУСТ)</p>
+                    <p class="diagram__header-text">КОЛ-ВО УПОМИНАНИЙ</p>
+                </div>
+                <div class="diagram__counter">
+                    <p class="diagram__counter-number">0</p>
+                    <p class="diagram__counter-number">25</p>
+                    <p class="diagram__counter-number">50</p>
+                    <p class="diagram__counter-number">75</p>
+                    <p class="diagram__counter-number">100</p>
+                </div>
+                <div class="diagram__table">
+                    <div class="diagram__cell">
+                        <p class="diagram__date">19, пн</p>
+                        <div class="diagram__line" style="width: 15%;">
+                            <p class="diagram__number">15</p>
+                        </div>
+                    </div>
+                    <div class="diagram__cell">
+                        <p class="diagram__date">20, вт</p>
+                        <div class="diagram__line"  style="width: 18%;">
+                            <p class="diagram__number">18</p>
+                        </div>
+                    </div>
+                    <div class="diagram__cell">
+                        <p class="diagram__date">21, ср</p>
+                        <div class="diagram__line" style="width: 11%;">
+                            <p class="diagram__number">11</p>
+                        </div>
+                    </div>
+                    <div class="diagram__cell">
+                        <p class="diagram__date">22, чт</p>
+                        <div class="diagram__line" style="width: 39%;">
+                            <p class="diagram__number">39</p>
+                        </div>
+                    </div>
+                    <div class="diagram__cell">
+                        <p class="diagram__date">23, пт</p>
+                        <div class="diagram__line" style="width: 34%;">
+                            <p class="diagram__number">34</p>
+                        </div>
+                    </div>
+                    <div class="diagram__cell">
+                        <p class="diagram__date">24, сб</p>
+                        <div class="diagram__line" style="width: 45%;">
+                            <p class="diagram__number">45</p>
+                        </div>
+                    </div>
+                    <div class="diagram__cell">
+                        <p class="diagram__date">25, вс</p>
+                        <div class="diagram__line" style="width: 73%;">
+                            <p class="diagram__number">73</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">© 2019  Supersite</p>
+            <nav class="footer__menu">
+                <a class="footer__link" href="index.html">Главная</a>
+                <a class="footer__link" href="about.html">О проекте</a>
+                <a class="footer__link" href="https://praktikum.yandex.ru/" target="blank">Яндекс.Практикум</a>
+            </nav>
+            <div class="footer__social">
+                <a class="footer__social-link" href="https://github.com/romanxlee" target="blank">
+                    <img class="footer__social-logo" src="<%=require('./images/github.svg')%>" alt="Github">
+                </a>
+                <a class="footer__social-link" href="https://www.facebook.com/" target="blank">
+                    <img class="footer__social-logo" src="<%=require('./images/fb.svg')%>" alt="Facebook">
+                </a>
+            </div>
+          </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.analyse.entry %>"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.github__name {
+    margin: 0;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    .github__name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .github__name {
+        font-size: 20px;
+    }
+}

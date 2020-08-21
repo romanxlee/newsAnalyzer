@@ -1,0 +1,13 @@
+@import url(./__preloader/results__preloader.css);
+@import url(./__nothing/results__nothing.css);
+@import url(./__success/results__success.css);
+@import url(./__title/results__title.css);
+@import url(./__text/results__text.css);
+@import url(./__image/results__image.css);
+@import url(./__head/results__head.css);
+@import url(./__button/results__button.css);
+
+
+.results {
+    background-color: #f5f6f7;
+}

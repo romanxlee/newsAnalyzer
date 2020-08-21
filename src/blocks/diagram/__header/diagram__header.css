@@ -1,0 +1,5 @@
+.diagram__header {
+    display: flex;
+    margin-top: 48px;
+    border-bottom: 1px solid black;
+}

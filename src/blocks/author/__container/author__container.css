@@ -1,0 +1,19 @@
+.author__container {
+    max-width: 600px;
+    padding-top: 51px;
+    margin-right: 216px;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    .author__container {
+        padding-top: 0;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .author__container {
+        margin: 0;
+        padding-top: 16px;
+    }
+}
