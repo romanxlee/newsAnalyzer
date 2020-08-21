@@ -14,3 +14,9 @@
     color: #B6BCBF;
     padding: 21px 0 21px 24px;
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .search__input {
+        width: 288px;
+    }
+}

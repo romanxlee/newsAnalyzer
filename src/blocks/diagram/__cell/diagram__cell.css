@@ -1,5 +1,5 @@
 .diagram__cell {
     display: grid;
-    grid-template-columns: 104px 1128px;
+    grid-template-columns: 104px 1fr;
     align-items: center;
 }

@@ -7,8 +7,17 @@
 @import url(./__mail/github__mail.css);
 @import url(./__text/github__text.css);
 @import url(./__slider/github__slider.css);
+@import url(./__title/github__title.css);
+@import url(./__link/github__link.css);
+@import url(./__button/github__button.css);
 
 .github {
     max-width: 1440px;
     padding: 72px 0 80px;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .github {
+        padding: 32px 0;
+    }
 }

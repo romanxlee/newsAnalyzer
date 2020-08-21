@@ -15,6 +15,10 @@
     margin-bottom: 80px;
 }
 
+.results__button:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 1439px) and (min-width: 768px) {
     .results__button {
         width: 240px;

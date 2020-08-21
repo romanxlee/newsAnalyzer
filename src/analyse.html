@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewsAnalyzer</title>
     <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.analyse.css %>">
+    <link rel="icon" href="<%=require('./images/icon.png')%>">
 </head>
 <body>
     <div class="page">
@@ -93,17 +94,17 @@
         <footer class="footer">
             <p class="footer__copyright">© 2019  Supersite</p>
             <nav class="footer__menu">
-              <a class="footer__link" href="#">Главная</a>
-              <a class="footer__link" href="#">О проекте</a>
-              <a class="footer__link" href="#">Яндекс.Практикум</a>
+                <a class="footer__link" href="index.html">Главная</a>
+                <a class="footer__link" href="about.html">О проекте</a>
+                <a class="footer__link" href="https://praktikum.yandex.ru/" target="blank">Яндекс.Практикум</a>
             </nav>
             <div class="footer__social">
-              <a class="footer__social-link" href="#">
-                <img class="footer__social-logo" src="<%=require('./images/github.svg')%>" alt="Github">
-              </a>
-              <a class="footer__social-link" href="#">
-                <img class="footer__social-logo" src="<%=require('./images/fb.svg')%>" alt="Facebook">
-              </a>
+                <a class="footer__social-link" href="https://github.com/romanxlee" target="blank">
+                    <img class="footer__social-logo" src="<%=require('./images/github.svg')%>" alt="Github">
+                </a>
+                <a class="footer__social-link" href="https://www.facebook.com/" target="blank">
+                    <img class="footer__social-logo" src="<%=require('./images/fb.svg')%>" alt="Facebook">
+                </a>
             </div>
           </footer>
     </div>

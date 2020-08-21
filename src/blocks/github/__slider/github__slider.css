@@ -4,3 +4,10 @@
     margin-top: 64px;
     overflow: hidden;
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .github__slider {
+        margin-top: 16px;
+        gap: 0;
+    }
+}

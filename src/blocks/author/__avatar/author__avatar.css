@@ -9,3 +9,9 @@
         width: 232px;
     }
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .author__avatar {
+        width: 272px;
+    }
+}

@@ -4,3 +4,10 @@
     gap: 34px;
     margin-right: 101px;
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .header__menu {
+        margin-right: 14px;
+        gap: 11px;
+    }
+}

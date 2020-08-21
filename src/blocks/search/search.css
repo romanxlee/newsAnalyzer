@@ -10,3 +10,9 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .search {
+        padding-bottom: 32px;
+    }
+}
