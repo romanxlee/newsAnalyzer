@@ -1,11 +1,13 @@
 .github__item {
     min-width: 400px;
+    min-height: 232px;
     background-color: white;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     padding: 24px;
     box-sizing: border-box;
+    flex-shrink: unset;
 }
 
 @media (max-width: 1439px) and (min-width: 768px) {

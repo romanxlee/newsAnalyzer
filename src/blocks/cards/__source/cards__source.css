@@ -1,4 +1,4 @@
-.cards__link {
+.cards__source {
     text-decoration: none;
     font-family: Roboto Slab;
     font-style: normal;
@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 1439px) and (min-width: 768px) {
-    .cards__link {
+    .cards__source {
         margin-left: 16px;
         margin-bottom: 16px;
     }
