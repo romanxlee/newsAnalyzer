@@ -3,7 +3,7 @@
 @import url(./__date/cards__date.css);
 @import url(./__title/cards__title.css);
 @import url(./__text/cards__text.css);
-@import url(./__link/cards__link.css);
+@import url(./__source/cards__source.css);
 
 .cards {
     display: grid;
